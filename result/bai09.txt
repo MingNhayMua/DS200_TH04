@@ -1,0 +1,52 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/05/21 22:45:14 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[Stage 1:>                                                          (0 + 4) / 4][Stage 1:==============>                                            (1 + 3) / 4][Stage 1:=============================>                             (2 + 2) / 4]                                                                                [Stage 3:>                                                          (0 + 4) / 4][Stage 3:==============>                                            (1 + 3) / 4]                                                                                [Stage 5:==============>                                            (1 + 3) / 4][Stage 5:============================================>              (3 + 1) / 4]                                                                                [Stage 6:==============>                                            (1 + 3) / 4][Stage 6:====>              (1 + 3) / 4][Stage 7:>                  (0 + 4) / 4][Stage 6:==============>    (3 + 1) / 4][Stage 7:>                  (0 + 4) / 4]                                                                                [Stage 10:>                                                         (0 + 4) / 4][Stage 10:===========================================>              (3 + 1) / 4]                                                                                [Stage 20:>                                                         (0 + 4) / 4][Stage 20:===========================================>              (3 + 1) / 4]                                                                                [Stage 27:>                                                         (0 + 4) / 4]                                                                                ========================================
+=== PHAN NHOM KHACH HANG ===
+========================================
+Gia tri TB cua don hang: 146.86
+Tan suat mua TB (ngay): 80.8
+
+Mau du lieu phan nhom khach hang:
++--------------------------------+-----------+----------+-------------+--------------------------------------------+
+|Subscriber_ID                   |So_Don_Hang|Gia_Tri_TB|Tan_Suat_Ngay|Nhom                                        |
++--------------------------------+-----------+----------+-------------+--------------------------------------------+
+|14a188558af6cd5bc222ca773d395a7f|2          |122.57    |41.0         |It don, Gia tri thap, Mua thuong xuyen      |
+|1d2435aa3b858d45c707c9fc25e18779|2          |73.79     |0.0          |It don, Gia tri thap, Mua thuong xuyen      |
+|7e4bebe20140a71b34263a659ba1ce11|2          |34.97     |231.0        |It don, Gia tri thap, Mua khong thuong xuyen|
+|c85df1c6ef6f7bb605e1c49d34f172ee|2          |118.89    |34.0         |It don, Gia tri thap, Mua thuong xuyen      |
+|bce006e903be688f122a39f45b210090|2          |144.26    |93.0         |It don, Gia tri thap, Mua khong thuong xuyen|
+|216ab90e27f18940cfac8f9f02fb4239|2          |151.47    |150.0        |It don, Gia tri cao, Mua khong thuong xuyen |
+|5a2e847dd085d36e3ba8916b75e794ed|2          |118.93    |0.0          |It don, Gia tri thap, Mua thuong xuyen      |
+|4b384b778ebc0449d0244902bfce7beb|2          |93.7      |150.0        |It don, Gia tri thap, Mua khong thuong xuyen|
+|cbe71e4cb0b82b97bbec5cd51e0fa3ea|2          |115.9     |44.0         |It don, Gia tri thap, Mua thuong xuyen      |
+|4011b7579e894fa929d2de97b4928f41|2          |444.25    |2.0          |It don, Gia tri cao, Mua thuong xuyen       |
+|bbf65e7823171a84e70a495dd6c34ceb|2          |295.99    |300.0        |It don, Gia tri cao, Mua khong thuong xuyen |
+|d970a2354b55cfb67fa5840b9b4936ed|2          |130.34    |146.0        |It don, Gia tri thap, Mua khong thuong xuyen|
+|bcf0a5f0f3ec8639f940749aab360d8f|2          |225.86    |92.0         |It don, Gia tri cao, Mua khong thuong xuyen |
+|24d9e83fe11e4390b69e1afb2b93f5ee|2          |174.75    |88.0         |It don, Gia tri cao, Mua khong thuong xuyen |
+|208fe9aa6033a77419f8f503b7698e03|2          |199.34    |12.0         |It don, Gia tri cao, Mua thuong xuyen       |
+|c28b1528e093df4b2a5d47f6f2b0d5fb|2          |92.54     |20.0         |It don, Gia tri thap, Mua thuong xuyen      |
+|a3c22bbd3ae5d6200ac82078b67eec2a|2          |131.31    |5.0          |It don, Gia tri thap, Mua thuong xuyen      |
+|5af103d3f12fd83434cb97578a1e8d49|2          |139.47    |0.0          |It don, Gia tri thap, Mua thuong xuyen      |
+|200d8b1f16d0cc9600022fdc99987a7f|2          |84.03     |0.0          |It don, Gia tri thap, Mua thuong xuyen      |
+|cd52ca09554e5cc34d9ec28d230008af|2          |84.83     |0.0          |It don, Gia tri thap, Mua thuong xuyen      |
++--------------------------------+-----------+----------+-------------+--------------------------------------------+
+only showing top 20 rows
+
+So luong khach hang theo nhom:
++-----------------------------------------------+--------+
+|Nhom                                           |So_Luong|
++-----------------------------------------------+--------+
+|It don, Gia tri thap, Mua thuong xuyen         |1301    |
+|It don, Gia tri thap, Mua khong thuong xuyen   |640     |
+|It don, Gia tri cao, Mua thuong xuyen          |613     |
+|It don, Gia tri cao, Mua khong thuong xuyen    |340     |
+|Nhieu don, Gia tri thap, Mua thuong xuyen      |11      |
+|Nhieu don, Gia tri cao, Mua thuong xuyen       |6       |
+|Nhieu don, Gia tri cao, Mua khong thuong xuyen |1       |
+|Nhieu don, Gia tri thap, Mua khong thuong xuyen|1       |
++-----------------------------------------------+--------+
+

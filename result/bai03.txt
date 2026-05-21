@@ -1,0 +1,40 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/05/21 22:19:44 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[Stage 1:>                                                          (0 + 4) / 4]                                                                                [Stage 3:==============>                                            (1 + 3) / 4]                                                                                [Stage 4:==============>                                            (1 + 3) / 4]                                                                                ========================================
+=== SO LUONG DON HANG THEO QUOC GIA ===
+========================================
++----------------+-----------+
+|Customer_Country|So_Don_Hang|
++----------------+-----------+
+|Germany         |41754      |
+|France          |12848      |
+|Netherlands     |11629      |
+|Belgium         |5464       |
+|Austria         |5043       |
+|Switzerland     |3640       |
+|United Kingdom  |3382       |
+|Poland          |2139       |
+|Czechia         |2034       |
+|Italy           |2025       |
+|Spain           |1651       |
+|Portugal        |1336       |
+|Sweden          |975        |
+|Denmark         |905        |
+|Serbia          |746        |
+|Norway          |716        |
+|Slovakia        |534        |
+|Slovenia        |495        |
+|Turkey          |485        |
+|Greece          |412        |
+|Lithuania       |351        |
+|Latvia          |280        |
+|Croatia         |254        |
+|Estonia         |148        |
+|Finland         |81         |
+|Luxembourg      |68         |
+|Andorra         |46         |
++----------------+-----------+
+

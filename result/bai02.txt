@@ -1,0 +1,11 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/05/21 22:19:04 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [Stage 1:>                                                          (0 + 4) / 4][Stage 1:============================================>              (3 + 1) / 4]                                                                                [Stage 3:==============>                                            (1 + 3) / 4]                                                                                [Stage 6:>                                                          (0 + 4) / 4]                                                                                [Stage 12:==============>                                           (1 + 3) / 4]                                                                                ========================================
+=== THONG KE TONG QUAN
+========================================
+Tong so don hang: 99441
+Tong so khach hang: 99442
+Tong so nguoi ban: 3095

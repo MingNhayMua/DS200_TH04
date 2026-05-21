@@ -1,0 +1,22 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/05/21 22:21:11 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[Stage 1:>                                                          (0 + 4) / 4][Stage 1:==============>                                            (1 + 3) / 4]                                                                                [Stage 3:>                                                          (0 + 4) / 4][Stage 3:==============>                                            (1 + 3) / 4]                                                                                [Stage 4:>                                                          (0 + 4) / 4][Stage 4:==============>                                            (1 + 3) / 4]                                                                                [Stage 5:>                                                          (0 + 4) / 4][Stage 5:==============>                                            (1 + 3) / 4]                                                                                [Stage 9:>                                                          (0 + 4) / 4][Stage 9:==============>                                            (1 + 3) / 4]                                                                                ========================================
+=== HIEU SUAT GIAO HANG ===
+========================================
+Tong so don da giao: 111456
+Chenh lech trung binh (ngay): -3.44
+Giao som nhat (ngay): -1055
+Giao tre nhat (ngay): 118
+
+Phan loai giao hang:
++--------+--------+
+|Loai    |So_Luong|
++--------+--------+
+|Giao som|97187   |
+|Giao tre|6670    |
+|Dung han|7599    |
++--------+--------+
+
